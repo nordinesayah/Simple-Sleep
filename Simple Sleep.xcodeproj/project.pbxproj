@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823C4CD3209A433000221324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C4CD2209A433000221324 /* AppDelegate.swift */; };
+		823C4CD5209A433000221324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C4CD4209A433000221324 /* ViewController.swift */; };
+		823C4CD8209A433000221324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823C4CD6209A433000221324 /* Main.storyboard */; };
+		823C4CDA209A433000221324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823C4CD9209A433000221324 /* Assets.xcassets */; };
+		823C4CDD209A433000221324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823C4CDB209A433000221324 /* LaunchScreen.storyboard */; };
+		823C4CE6209E0C7100221324 /* fan_noise_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 823C4CE5209E0C7100221324 /* fan_noise_3.wav */; };
+		823C4CE8209E0CC600221324 /* fan_noise_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 823C4CE7209E0CC500221324 /* fan_noise_4.wav */; };
+		823C4CEA209E0CCB00221324 /* fan_noise_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 823C4CE9209E0CCA00221324 /* fan_noise_5.wav */; };
+		F10C9562E38D472D0EB04D20 /* Pods_Simple_Sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A582A0EAE127ABE9E16F3DC /* Pods_Simple_Sleep.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A43C3896EB78F16C67BF158 /* Pods-Simple Sleep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Sleep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Sleep/Pods-Simple Sleep.debug.xcconfig"; sourceTree = "<group>"; };
+		5A582A0EAE127ABE9E16F3DC /* Pods_Simple_Sleep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Sleep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		823C4CCF209A433000221324 /* Simple Sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Sleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823C4CD2209A433000221324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		823C4CD4209A433000221324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		823C4CD7209A433000221324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		823C4CD9209A433000221324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		823C4CDC209A433000221324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		823C4CDE209A433000221324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823C4CE5209E0C7100221324 /* fan_noise_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fan_noise_3.wav; sourceTree = "<group>"; };
+		823C4CE7209E0CC500221324 /* fan_noise_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fan_noise_4.wav; sourceTree = "<group>"; };
+		823C4CE9209E0CCA00221324 /* fan_noise_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fan_noise_5.wav; sourceTree = "<group>"; };
+		EBFB3CF4E14BA4341F113C57 /* Pods-Simple Sleep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Sleep.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Sleep/Pods-Simple Sleep.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823C4CCC209A433000221324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10C9562E38D472D0EB04D20 /* Pods_Simple_Sleep.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D90FFD7A54CDC10D601EC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A582A0EAE127ABE9E16F3DC /* Pods_Simple_Sleep.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		823C4CC6209A433000221324 = {
+			isa = PBXGroup;
+			children = (
+				823C4CD1209A433000221324 /* Simple Sleep */,
+				823C4CD0209A433000221324 /* Products */,
+				FBCA8CF5D9D96152AAF835B9 /* Pods */,
+				10D90FFD7A54CDC10D601EC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		823C4CD0209A433000221324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823C4CCF209A433000221324 /* Simple Sleep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823C4CD1209A433000221324 /* Simple Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				823C4CD2209A433000221324 /* AppDelegate.swift */,
+				823C4CD4209A433000221324 /* ViewController.swift */,
+				823C4CD6209A433000221324 /* Main.storyboard */,
+				823C4CD9209A433000221324 /* Assets.xcassets */,
+				823C4CE5209E0C7100221324 /* fan_noise_3.wav */,
+				823C4CE7209E0CC500221324 /* fan_noise_4.wav */,
+				823C4CE9209E0CCA00221324 /* fan_noise_5.wav */,
+				823C4CDB209A433000221324 /* LaunchScreen.storyboard */,
+				823C4CDE209A433000221324 /* Info.plist */,
+			);
+			path = "Simple Sleep";
+			sourceTree = "<group>";
+		};
+		FBCA8CF5D9D96152AAF835B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A43C3896EB78F16C67BF158 /* Pods-Simple Sleep.debug.xcconfig */,
+				EBFB3CF4E14BA4341F113C57 /* Pods-Simple Sleep.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823C4CCE209A433000221324 /* Simple Sleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823C4CE1209A433000221324 /* Build configuration list for PBXNativeTarget "Simple Sleep" */;
+			buildPhases = (
+				E136E077B33A8D6081DC7725 /* [CP] Check Pods Manifest.lock */,
+				823C4CCB209A433000221324 /* Sources */,
+				823C4CCC209A433000221324 /* Frameworks */,
+				823C4CCD209A433000221324 /* Resources */,
+				1CCDD910C71F385B507281EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Sleep";
+			productName = "Simple Sleep";
+			productReference = 823C4CCF209A433000221324 /* Simple Sleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823C4CC7209A433000221324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = "Nordine Sayah";
+				TargetAttributes = {
+					823C4CCE209A433000221324 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1320;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 823C4CCA209A433000221324 /* Build configuration list for PBXProject "Simple Sleep" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 823C4CC6209A433000221324;
+			productRefGroup = 823C4CD0209A433000221324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823C4CCE209A433000221324 /* Simple Sleep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		823C4CCD209A433000221324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823C4CDD209A433000221324 /* LaunchScreen.storyboard in Resources */,
+				823C4CDA209A433000221324 /* Assets.xcassets in Resources */,
+				823C4CD8209A433000221324 /* Main.storyboard in Resources */,
+				823C4CEA209E0CCB00221324 /* fan_noise_5.wav in Resources */,
+				823C4CE8209E0CC600221324 /* fan_noise_4.wav in Resources */,
+				823C4CE6209E0C7100221324 /* fan_noise_3.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CCDD910C71F385B507281EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Simple Sleep/Pods-Simple Sleep-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/mopub-ios-sdk/MoPub.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoPub.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Sleep/Pods-Simple Sleep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E136E077B33A8D6081DC7725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Simple Sleep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823C4CCB209A433000221324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823C4CD5209A433000221324 /* ViewController.swift in Sources */,
+				823C4CD3209A433000221324 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		823C4CD6209A433000221324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823C4CD7209A433000221324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		823C4CDB209A433000221324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823C4CDC209A433000221324 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		823C4CDF209A433000221324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		823C4CE0209A433000221324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		823C4CE2209A433000221324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A43C3896EB78F16C67BF158 /* Pods-Simple Sleep.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8EXCH62RB;
+				INFOPLIST_FILE = "Simple Sleep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sleep.fan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		823C4CE3209A433000221324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFB3CF4E14BA4341F113C57 /* Pods-Simple Sleep.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8EXCH62RB;
+				INFOPLIST_FILE = "Simple Sleep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sleep.fan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823C4CCA209A433000221324 /* Build configuration list for PBXProject "Simple Sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823C4CDF209A433000221324 /* Debug */,
+				823C4CE0209A433000221324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823C4CE1209A433000221324 /* Build configuration list for PBXNativeTarget "Simple Sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823C4CE2209A433000221324 /* Debug */,
+				823C4CE3209A433000221324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823C4CC7209A433000221324 /* Project object */;
+}
